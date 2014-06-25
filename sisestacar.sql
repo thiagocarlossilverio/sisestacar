@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `clientes` (
 -- Copiando dados para a tabela estacionamento.clientes: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `clientes` DISABLE KEYS */;
 INSERT INTO `clientes` (`idcliente`, `nome`, `data_nascimento`, `telefone_residencial`, `telefone_celular`, `cpf`, `cidade`, `estado`, `endereco`, `bairro`, `numero`, `complemento`) VALUES
-	(2, '', '0000-00-00', '4384257131', '4384257131', '07385413978', 'Londrina', 'Paraná', 'Rua Austria', 'Centro', '64', 'Casa');
+	(2, '', '0000-00-00', '4384257131', '4384257131', '00000000000', 'Londrina', 'Paraná', 'Rua Austria', 'Centro', '', 'Casa');
 /*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
 
 
